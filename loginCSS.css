@@ -1,0 +1,106 @@
+
+body {
+    background-color: #690500;
+    font-family: Arial, sans-serif;
+}
+
+.logos {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 250px;
+    height: 200px;
+    z-index: 2;
+}
+
+.image1 {
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: contrast(1.2) brightness(1.05);
+}
+
+.image1 h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.image1 h3 {
+    position: absolute;
+    font-family: 'UnifrakturMaguntia', serif;
+    color: white;
+    font-size: 50px;
+    z-index: 3;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.loginbox {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.loginbox h3 {
+    font-size: 24px;
+    color: darkred;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.inbox label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inbox input[type="text"],
+.inbox input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.click {
+    width: 100%;
+    padding: 10px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.click:hover {
+    background-color: #218838;
+}
+
+
+.inbox {
+    text-align: left;
+}

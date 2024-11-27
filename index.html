@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capitol University</title>
+</head>
+<body>
+
+    <img src="culogo.png" class="logos">
+
+
+    <div class="image1">
+        <img src="kupal.png" alt="Background Image">
+        <button onclick="document.location='login.html'" class="login">Login</button>
+        <h3>Capitol University</h3>
+    </div>
+
+    <ul>
+  		<li><a class="active" href="#home">Home</a></li>
+  		<li><a href="#news">News</a></li>
+  		<li><a href="#contact">Contact</a></li>
+  		<li><a href="#about">About</a></li>
+  		<div class="topnav">
+  			
+    	<input type="text" placeholder="Search...">
+    		<i class="fas fa-search"></i>
+			</div>
+	</ul>
+
+<div class="box1" style="z-index:1;">
+    <div class="slideshow-container" style="z-index: 1;">
+    	
+        <div class="mySlides fade" style="z-index: 1;">
+            <img src="image1.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <img src="image2.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <img src="image3.jpg" style="width:100%">
+
+        </div>
+    </div>
+</div>
+
+<div class="box2">
+	<div class="text1"><h4>HISTORY OF CAPITOL UNIVERSITY</h4></div>
+	<hr class="new4">
+	<p class="p1">Capitol University, established in 1971 as Cagayan Capitol College, is a non-sectarian, co-educational institution in Cagayan de Oro, Philippines. It began by offering secondary education and college programs in Liberal Arts, Commerce, Education, and Secretarial. The university pioneered Region X’s first Midwifery program in 1973 and expanded to engineering and marine programs, acquiring a 650-ton freighter as a training vessel for Maritime students. By 1981, Capitol had opened a Graduate School, now offering multiple doctoral and master’s programs.
+
+	In 1987, the elementary and preschool departments moved to Gusa, creating the St. Francis Learning Center. Over the years, new programs in Physical Therapy, Criminology, and Computer Science were added, along with institutionalized nursing review programs and CISCO networking certification. Capitol University also established a research and extension office (CUREXO) and pursued program accreditations from PACUCOA and ISO certifications for its maritime programs.
+
+	Several of its colleges, including Criminology, Computer Studies, Civil Engineering, and Education, received designations as Centers of Development or Excellence from CHED. In 2003, Capitol College officially became Capitol University and achieved deregulated status. Known for its high licensure exam performance, particularly in Nursing, the university remains a leading academic institution in Region X.</p>
+</div>
+
+<hr class="new1">
+
+<h1>COLLEGE COURSES</h1>
+
+<div class="box-container">
+
+    <div class="box5">
+    	<img src="BSBA.png">
+    	<h1>COLLEGE OF BUSINESS AND ADMINISTRATION</h1>
+    	<button class="click">ENROLL NOW</button>
+    </div>
+
+    <div class="box6">
+    	<img src="CCS.png">
+    	<h1>COLLEGE OF BUSINESS AND ADMINISTRATION</h1>
+    	<button class="click">ENROLL NOW</button>
+    </div>
+
+    <div class="box7">
+    	<img src="CME.png">
+    	<h1>COLLEGE OF BUSINESS AND ADMINISTRATION</h1>
+    	<button class="click">ENROLL NOW</button>
+    </div>
+
+    <div class="box8">
+    	<img src="CAS.png">
+    	<h1>COLLEGE OF BUSINESS AND ADMINISTRATION</h1>
+    	<button class="click">ENROLL NOW</button>
+    </div>
+
+    <div class="box9">
+    	<img src="EDUC.png">
+    	<h1>COLLEGE OF BUSINESS AND ADMINISTRATION</h1>
+    	<button class="click">ENROLL NOW</button>
+    </div>
+
+    <div class="box10">
+    	<img src="COHS.png">
+    	<h1>COLLEGE OF BUSINESS AND ADMINISTRATION</h1>
+    	<button class="click">ENROLL NOW</button>
+    </div>
+
+    <div class="box11">
+    	<img src="CRIM.png">
+    	<h1>COLLEGE OF BUSINESS AND ADMINISTRATION</h1>
+    	<button class="click">ENROLL NOW</button>
+    </div>
+
+    <div class="box12">
+    	<img src="COE.png">
+    	<h1>COLLEGE OF BUSINESS AND ADMINISTRATION</h1>
+    	<button class="click">ENROLL NOW</button>
+    </div>
+</div>
+
+<div class="lowerbox">
+	<div class="cuvideo">
+		<iframe src="https://www.youtube.com/embed/mbRAo9TUbaM?si=U5Ed8Uak15SIePp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
+		<div class="googlemap">
+     		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.110949481654!2d124.64937277399068!3d8.488592297216027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2e7ff6d2ec9%3A0x180566d5585d5301!2sCapitol%20University!5e0!3m2!1sen!2sph!4v1732614527032!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+</div>
+
+
+
+</body>
+</html>
+
+<script>
+    let slideIndex = 0;
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("mySlides");
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex - 1].style.display = "block";  
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+
+    showSlides();
+</script>
